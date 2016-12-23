@@ -1,0 +1,18 @@
+﻿Build started 23/12/2559 4:12:10.
+     1>Project "C:\Cinder\CinderProject\CloudAPP\vc2013\CloudAPP.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /I..\..\..\cinder_0.9.0_vc2013\include /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WIN32_WINNT=0x0601 /D _WINDOWS /D NOMINMAX /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\CloudAPPApp.cpp
+         CloudAPPApp.cpp
+     1>c:\cinder\cinderproject\cloudapp\src\cloudappapp.cpp(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\cinder\cinderproject\cloudapp\src\cloudappapp.cpp(47): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\cinder\cinderproject\cloudapp\src\cloudappapp.cpp(48): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Cinder\CinderProject\CloudAPP\vc2013\Debug\CloudAPP.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\cinder_0.9.0_vc2013\lib\msw\x86 "cinder-v120_d.lib" OpenGL32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /NODEFAULTLIB:LIBCPMT /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Cinder\CinderProject\CloudAPP\vc2013\Debug\CloudAPP.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Cinder\CinderProject\CloudAPP\vc2013\Debug\CloudAPP.lib" /MACHINE:X86 Debug\Resources.res
+         Debug\CloudAPPApp.obj
+         Debug\Light.obj
+         CloudAPP.vcxproj -> C:\Cinder\CinderProject\CloudAPP\vc2013\Debug\CloudAPP.exe
+     1>Done Building Project "C:\Cinder\CinderProject\CloudAPP\vc2013\CloudAPP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.76
